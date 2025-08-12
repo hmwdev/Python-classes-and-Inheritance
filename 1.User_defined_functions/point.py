@@ -6,9 +6,10 @@ class Point:
         self.y = y
 
     def print(self):
-        print((self.x, self.y))
-    
+        print((self.x, self.y))   
+
     def translation(self, dx: float, dy: float):
+        """Move a point by a certain amount along the x and y axes."""
         self.x = self.x + dx
         self.y = self.y + dy
 
